@@ -7,7 +7,7 @@
  */
 namespace App;
 
-RoutingManager::GetInstance()->StartSuf(SAFE_MODE);
+RoutingManager::GetInstance()->StartSurf(SAFE_MODE);
 SafeManager::GetInstance()->SetListenSwitch();
 SafeManager::GetInstance()->SetTypeSZones(RU, "GMT+12");
 CacheManager::GetInstance()->ClearCache(12);
